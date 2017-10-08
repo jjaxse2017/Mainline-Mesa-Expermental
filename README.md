@@ -3,11 +3,16 @@
 --One open source radeon gpu performs better than two windows crossfire radeon gpu's
 
 1.) Download the latest source code from https://github.com/mesa3d/mesa
-2.) Copy the filed included into the mesa 3d source code (name changes ac_llvm_build.c to ac_llvm_build.cpp)
-3.) run configure.ac (needed to generate a configure file /w the updated file name changes)
-4.) copy either the 32 bit or 64 bit configure files over the newly generated configure file (needed to hard wire the configure optimization options listed below and remove debugging) and then run configure
+
+2.) Copy the src directory files included into the mesa 3d source code (name changes ac_llvm_build.c to ac_llvm_build.cpp)
+
+3.) Run autogen.sh (needed to generate a configure file /w the updated file name changes)
+
+4.) Copy either the 32 bit or 64 bit configure files over the newly generated configure file (needed to hard wire the configure optimization options listed below and remove debugging) and then run configure
 the files will be located in the lib folder
-5.) strip --strip-unneeded --remove-section=.comment lib/*
+
+5.) Strip --strip-unneeded --remove-section=.comment lib/*
+
 6.) Move the files into appropriate directory see the compiled radeon driver for instructions on how to run 
 
 64bit (GCC6/LLVM5)
