@@ -16,6 +16,8 @@
 
 6.) Move the files into appropriate directory see the compiled radeon driver for instructions on how to run 
 
+Check out https://github.com/jjaxse2017/scorched-earth-3d for a free open source game to try out the mainline driver on. 
+
 64bit (GCC6/LLVM5)
 
 ./configure CFLAGS='-march=core2 -O3' CXXFLAGS='-march=core2 -std=gnu++17' LLVM_CFLAGS='-march=core2 -O3' LLVM_CPPFLAGS='-march=core2 -O3 -std=gnu++17' --with-platforms='x11,drm' --with-gallium-drivers='r600,swrast,radeonsi' --with-dri-drivers='swrast,radeon' --enable-glx-tls --enable-xa --enable-osmesa --enable-texture-float --enable-gles1 -enable-gles2 --enable-gbm --enable-dri  --enable-glx --enable-opengl --enable-shared-glapi --enable-va --enable-vdpau --enable-dri3 --enable-llvm --with-vulkan-drivers='radeon' --enable-opencl --enable-opencl-icd
@@ -95,5 +97,3 @@
 <div class="engine">Powered by <a href="http://unigine.com/products/unigine/">UNIGINE Engine</a></div>
 <div class="copyright"><a href="http://unigine.com/">Unigine Corp.</a> &copy; 2005-2013</div>
 </body></html>
-
-Check out https://github.com/jjaxse2017/scorched-earth-3d for a free open source game to try out the mainline driver on. 
