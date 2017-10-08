@@ -16,6 +16,10 @@
 
 6.) Move the files into appropriate directory see the compiled radeon driver https://github.com/jjaxse2017/Mainline-Mesa-Expermental/releases for instructions on how to run the driver.
 
+7.) --Assuming you're using using LLVM 6/GCC7, Make clean then configure again making the r600 driver with just GCC 7 and copy the files contained in the gallium directory over to the desired lib directory minus swrast. (special note here the gallium and dri files can/should be put into one single directory)
+
+8.) --Assuming you're using using LLVM 6/GCC7 You'll need to compile the 32 bit files... I ended up using GCC6/LLVM5
+
 Check out https://github.com/jjaxse2017/scorched-earth-3d for a free open source game to try out the mainline driver on. 
 
 64bit (GCC6/LLVM5)
@@ -24,7 +28,7 @@ Check out https://github.com/jjaxse2017/scorched-earth-3d for a free open source
 
 
 
-32bit
+32bit (GCC6/LLVM5)
 
 ./configure CFLAGS='-pipe -m32 -march=core2 -O3' CXXFLAGS='-pipe -m32 -march=core2 -O3 -std=c++1z -std=c++17' CPPFLAGS='-pipe -march=core2 -O3 -std=gnu++1z' LLVM_CFLAGS='-pipe -m32 -march=core2 -O3' LLVM_CPPFLAGS='-pipe -m32 -march=core2 -O3 -std=c++1z -std=c++17' --with-platforms='x11,drm' --with-gallium-drivers='r600,swrast,radeonsi' --with-dri-drivers='swrast,radeon' --enable-glx-tls --enable-xa --enable-osmesa --enable-nine --enable-texture-float --enable-gles1 --enable-gles2 --enable-shared-glapi --enable-gbm --enable-dri  --enable-glx --enable-opengl --enable-va --enable-vdpau --enable-dri --enable-dri3 --enable-llvm --enable-llvm-shared-libs --with-vulkan-drivers='radeon' --host=i686-pc-linux-gnu --target=i686-pc-linux-gnu
 
