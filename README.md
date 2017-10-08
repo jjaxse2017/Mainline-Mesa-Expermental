@@ -8,8 +8,8 @@
 
 3.) Run autogen.sh (needed to generate a configure file /w the updated file name changes)
 
-4.) Copy either the 32 bit or 64 bit configure files over the newly generated configure file (needed to hard wire the configure optimization options listed below and remove debugging) and then run configure
-the files will be located in the lib folder
+4.) Copy either the 32 bit or 64 bit configure files over the newly generated configure file (needed to hard wire the configure optimization options listed below and remove debugging) 
+4.a) Change your march=flag and then run configure and then run make -j4 the files will be located in the lib folder
 
 5.) Strip --strip-unneeded --remove-section=.comment lib/*
 
