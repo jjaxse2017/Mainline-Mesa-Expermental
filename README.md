@@ -40,7 +40,7 @@ the files will be located in the lib folder
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html><head>
 
-<h1>Unigine Heaven Benchmark 4.0 -- Single GPU </h1>
+<h1>Unigine Heaven Benchmark 4.0 -- Single GPU linux mesa 13.0-dev</h1>
 <table class="result">
 <tr><td class="right">FPS:</td><td><div class="orange"><strong>83.5</strong></div></td></tr>
 <tr><td class="right">Score:</td><td><div class="orange"><strong>2104</strong></div></td></tr>
@@ -70,7 +70,7 @@ the files will be located in the lib folder
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html><head>
 
-<h1>Unigine Heaven Benchmark 4.0 -- Crossfire</h1>
+<h1>Unigine Heaven Benchmark 4.0 -- Crossfire windows 10 latest ATI/AMD driver</h1>
 <table class="result">
 <tr><td class="right">FPS:</td><td><div class="orange"><strong>56.4</strong></div></td></tr>
 <tr><td class="right">Score:</td><td><div class="orange"><strong>1422</strong></div></td></tr>
