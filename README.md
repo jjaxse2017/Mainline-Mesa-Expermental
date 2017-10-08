@@ -12,7 +12,7 @@
 
 4.) Copy either the 32 bit or 64 bit configure files over the newly generated configure file (needed to hard wire the configure optimization options listed below and remove debugging) 4.a) Change the march=native or I recommned your specific arch to your arch and then run configure and then run make -j4 the files will be located in the lib folder 4.b) Google is your friend for getting those missing libraries missing -l stands for lib, though getting the 32 bit version's can be tedious and tiersome in a 64 bit OS because the package manager doesn't show them, so you'll have to add :i386 at the end. Yet it's possible to do, with gcc6/llvm5
 
-5.) Strip --strip-unneeded --remove-section=.comment lib/*
+5.) strip --strip-unneeded --remove-section=.comment lib/*
 
 6.) Move the files into appropriate directory see the compiled radeon driver https://github.com/jjaxse2017/Mainline-Mesa-Expermental/releases for instructions on how to run the driver.
 
