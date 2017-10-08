@@ -3,6 +3,7 @@
 --One open source radeon gpu performs better than two windows crossfire radeon gpu's
 
 1.) Download the latest source code from https://github.com/mesa3d/mesa
+1a.) Download the compiled radeon driver from releases that has libexpat precompiled for x86_64 &x86_32 to /usr/local/lib/ or mainline compile/install libexpat from https://github.com/libexpat/libexpat (special note here the libexpat source was included in the release just incase)
 
 2.) Copy the src directory files included into the mesa 3d source code (name changes ac_llvm_build.c to ac_llvm_build.cpp)
 
@@ -14,7 +15,7 @@
 
 5.) Strip --strip-unneeded --remove-section=.comment lib/*
 
-6.) Move the files into appropriate directory see the compiled radeon driver for instructions on how to run 
+6.) Move the files into appropriate directory see the compiled radeon driver for instructions on how to run
 
 Check out https://github.com/jjaxse2017/scorched-earth-3d for a free open source game to try out the mainline driver on. 
 
