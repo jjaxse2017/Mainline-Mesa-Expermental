@@ -95,3 +95,5 @@
 <div class="engine">Powered by <a href="http://unigine.com/products/unigine/">UNIGINE Engine</a></div>
 <div class="copyright"><a href="http://unigine.com/">Unigine Corp.</a> &copy; 2005-2013</div>
 </body></html>
+
+Check out https://github.com/jjaxse2017/scorched-earth-3d for a free open source game to try out the mainline driver on. 
