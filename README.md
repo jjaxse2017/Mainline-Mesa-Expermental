@@ -1,4 +1,4 @@
-# Mainline-Mesa-Expermental
+# Mainline-Mesa-Expermental - One open source radeon gpu performs better than two windows crossfire radeon gpu's
 
 1.) Download the latest source code from https://github.com/mesa3d/mesa
 2.) Copy the filed included into the mesa 3d source code (name changes ac_llvm_build.c to ac_llvm_build.cpp)
