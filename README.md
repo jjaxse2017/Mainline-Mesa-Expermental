@@ -40,7 +40,7 @@ Check out https://github.com/jjaxse2017/scorched-earth-3d for a free open source
 
 64bit2(GCC7) Used for missing R600 driver
 
-./configure CFLAGS='-pipe -march=core2 -O3' CPPFLAGS='-pipe -march=core2 -O3 -std=gnu++1z' CXXFLAGS='-pipe -march=core2 -O3 -std=gnu++1z' LLVM_CFLAGS='-pipe -march=core2 -O3' LLVM_CPPFLAGS='-pipe -march=core2 -O3 -std=c++1z -std=c++17' LDFLAGS='-lstdc++ -lz' --with-platforms='x11,drm' --with-gallium-drivers='r600,swrast,radeonsi' --with-dri-drivers='' --enable-glx-tls --enable-xa --enable-texture-float --enable-opengl --enable-glx --enable-gles1 -enable-gles2 --enable-gbm --enable-dri --enable-dri3  --enable-osmesa --enable-shared-glapi --enable-va --enable-vdpau --disable-gallium-llvm --disable-llvm
+./configure CFLAGS='-pipe -march=core2 -O3' CPPFLAGS='-pipe -march=core2 -O3 -std=gnu++1z' CXXFLAGS='-pipe -march=core2 -O3 -std=gnu++1z' LLVM_CFLAGS='-pipe -march=core2 -O3' LLVM_CPPFLAGS='-pipe -march=core2 -O3 -std=c++1z -std=c++17' LDFLAGS='-lstdc++ -lz' --with-platforms='x11,drm' --with-gallium-drivers='r600' --with-dri-drivers='' --enable-glx-tls --enable-xa --enable-texture-float --enable-opengl --enable-glx --enable-gles1 -enable-gles2 --enable-gbm --enable-dri --enable-dri3  --enable-osmesa --enable-shared-glapi --enable-va --enable-vdpau --disable-gallium-llvm --disable-llvm
 
 
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
