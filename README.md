@@ -10,7 +10,7 @@
 
 3.) Run autogen.sh (needed to generate a configure file /w the updated file name changes)
 
-4.) Copy either the 32 bit or 64 bit configure files over the newly generated configure file (needed to hard wire the configure optimization options listed below and remove debugging) 4.a) Change the march=native or I recommned your specific arch to your arch and then run configure and then run make -j4 the files will be located in the lib folder 4.b) Google is your friend for getting those missing libraries missing -l stands for lib, though getting the 32 bit version's can be tedious and tiersome in a 64 bit OS because the package manager doesn't show them, so you'll have to add :i386 at the end, yet it's possible to do, with gcc6/llvm5
+4.) For 32 bit configure file over the newly generated configure file (forces LLVM cflags) 4.a) Change the march=native or to the specific arch run configure and make -j4 the compiled files will be located in the lib folder 4.b) Google the missing libraries during compile -l stands for lib, getting 32 bit version's on a 64 bit will be tedious since they don't show up often, so you'll have to add :i386 at the end of the said reference. Cross compiling from 64 bit to 32 bit worked when using gcc 6/llvm 5.
 
 5.) strip --strip-unneeded --remove-section=.comment lib/*
 
@@ -18,7 +18,7 @@
 
 7.) --Assuming you're using using LLVM 6/GCC7, Make clean then configure again making the r600 driver with just GCC 7 and copy the files contained in the gallium directory over to the desired lib directory minus swrast. (special note here the gallium and dri files can/should be put into one single directory)
 
-8.) --Assuming you're using using LLVM 6/GCC7 You'll need to compile the 32 bit files... I ended up using GCC6/LLVM5
+8.) To compile the 32 bit files... I had to use GCC6/LLVM5 on a 64 bit OS, though I tried gcc7/llvm6:i386
 
 Check out https://github.com/jjaxse2017/scorched-earth-3d for a free open source game to try out the mainline driver on. 
 
