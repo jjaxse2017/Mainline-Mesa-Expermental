@@ -49,10 +49,10 @@ Check out https://github.com/jjaxse2017/scorched-earth-3d for a free open source
 
 <h1>Unigine Heaven Benchmark 4.0 -- Single GPU linux mesa 13.0-dev</h1>
 <table class="result">
-<tr><td class="right">FPS:</td><td><div class="orange"><strong>83.5</strong></div></td></tr>
-<tr><td class="right">Score:</td><td><div class="orange"><strong>2104</strong></div></td></tr>
-<tr><td class="right">Min FPS:</td><td><div class="orange"><strong>31.8</strong></div></td></tr>
-<tr><td class="right">Max FPS:</td><td><div class="orange"><strong>147.9</strong></div></td></tr>
+<tr><td class="right">FPS:</td><td><div class="orange"><strong>88.9</strong></div></td></tr>
+<tr><td class="right">Score:</td><td><div class="orange"><strong>2240</strong></div></td></tr>
+<tr><td class="right">Min FPS:</td><td><div class="orange"><strong>32.6</strong></div></td></tr>
+<tr><td class="right">Max FPS:</td><td><div class="orange"><strong>157.6</strong></div></td></tr>
 </table>
 <h2>System</h2>
 <table class="detail">
