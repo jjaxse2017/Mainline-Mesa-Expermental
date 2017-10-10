@@ -1,10 +1,10 @@
-# Mainline-Mesa-Expermental
+# Mainline-Mesa-Experimental
 
---One open source radeon gpu out performs better than two ATI/AMD HD5850 windows 10 crossfire radeon gpu's
+--One Ubuntu 17.04 mainline mesa experimental open source radeon gpu out performs better than two windows 10 crossfire radeon gpu's
 
-This repository provides the instructions on how to compile mainline mesa with experimental compilers and unsupported optimizations for the best/fastest possible working frame rate. I'd anticipate this would be appealing to an audiance of gamers, top benchmark enthusiests or possibly the mesa 3d dev's looking forward to doing somthing like adding new features as expermental compilers become supported and stable.
+This repository provides the instructions on how to compile mainline mesa with experimental compilers and unsupported optimizations for the best/fastest possible working frame rate. I'd anticipate this would be appealing to an audience of gamers, top benchmark enthusiasts or possibly the mesa 3d dev's looking forward to doing something like adding new features as experimental compilers become supported and stable.
 
-As an added bonus there's a compiled file set for the lazy people out ther for all of the AMD gpus out there. Goto the release page for the compile instructions/files https://github.com/jjaxse2017/Mainline-Mesa-Expermental/releases.
+As an added bonus there's a compiled file set for the lazy people out there for all of the AMD gpus out there. Goto the release page for the compile instructions/files https://github.com/jjaxse2017/Mainline-Mesa-Expermental/releases.
 
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
