@@ -21,7 +21,7 @@ As an added bonus there's a compiled file set for the lazy people out ther for a
 <table class="detail">
 <tr><td class="right">Platform:</td><td><div class="highlight">Linux 4.14.0-999-generic x86_64</div></td></tr>
 <tr><td class="right">CPU model:</td><td><div class="highlight">Intel(R) Core(TM)2 Duo CPU     E6850  @ 3.00GHz (3829MHz) x2</div></td></tr>
-<tr><td class="right">GPU model:</td><td><div class="highlight">Unknown GPU (256MB) x1</div></td></tr>
+<tr><td class="right">GPU model:</td><td><div class="highlight">AMD Radeon HD 5800 Series (1024MB) x1</div></td></tr>
 </table>
 <h2>Settings</h2>
 <table class="detail">
