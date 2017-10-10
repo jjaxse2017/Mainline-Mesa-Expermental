@@ -2,13 +2,13 @@ Unigine Heaven Benchmark 4.0 (DX12 installed and using DX11 vs Updated Mesa 13.0
 
 #No overclocking enabled
 
-FPS: 56.4/83.5
+FPS: 56.4/88.9
 
-Score: 1422 /2104
+Score: 1422 /2204
 
-Min FPS:	8.6 / 31.8
+Min FPS:	8.6 / 32.6
 
-Max FPS:	99.5 / 147.9
+Max FPS:	99.5 / 157.6
 
 System Platform:	Windows NT 6.2 (build 9200) 64bit / Linux 4.14.0-999-generic x86_64
 
