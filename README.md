@@ -1,6 +1,6 @@
 # Mainline-Mesa-Experimental
 
---One Ubuntu 17.04 mainline mesa experimental open source radeon gpu out performs better than two windows 10 crossfire radeon gpu's
+--One mainline mesa experimental open source radeon gpu out performs better than two windows 10 crossfire radeon gpu's
 
 This repository provides the instructions on how to compile mainline mesa with experimental compilers and unsupported optimizations for the best/fastest possible working frame rate. I'd anticipate this would be appealing to an audience of gamers, top benchmark enthusiasts or possibly the mesa 3d dev's looking forward to doing something like adding new features as experimental compilers become supported and stable.
 
@@ -10,7 +10,7 @@ As an added bonus there's a compiled file set for the lazy people out there for 
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html><head>
 
-<h1>Unigine Heaven Benchmark 4.0 -- Single GPU linux mesa 13.0-dev</h1>
+<h1>Unigine Heaven Benchmark 4.0 -- Ubuntu 17.04 Single GPU linux mesa 13.0-dev</h1>
 <table class="result">
 <tr><td class="right">FPS:</td><td><div class="orange"><strong>88.9</strong></div></td></tr>
 <tr><td class="right">Score:</td><td><div class="orange"><strong>2240</strong></div></td></tr>
