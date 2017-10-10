@@ -1,6 +1,6 @@
 # Mainline-Mesa-Expermental
 
---One open source radeon gpu performs better than two windows crossfire radeon gpu's
+--One open source radeon gpu out performs better than two ATI/AMD HD5850 windows 10 crossfire radeon gpu's
 
 This repository provides the instructions on how to compile mainline mesa with experimental compilers and unsupported optimizations for the best/fastest possible working frame rate. I'd anticipate this would be appealing to an audiance of gamers, top benchmark enthusiests or possibly the mesa 3d dev's looking forward to doing somthing like adding new features as expermental compilers become supported and stable.
 
