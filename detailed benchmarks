@@ -1,0 +1,30 @@
+TF2 timedemo benchmark1 (32 bit) -- Model detail(high), Texture detail(high), Shader detail(high), Water detail(reflect all), shadow detail(high), color correction(enabled), anti aliasing(8x), Filteringmode (ansiostropic 16x), vertical sync(disabled), motion blur(enabled), multicore rendering(enabled), high dynamic range (enabled if availible), use bloom effect (unchecked) 
+gcc6/llvm5 driver O3: 2639 frames 51.238 seconds 51.50 fps (19.42 ms/f) 8.448 fps variability
+gcc6/llvm5 all O3   : 2639 frames 51.480 seconds 51.26 fps (19.51 ms/f) 8.352 fps variability
+gcc7/llvm6 driver O3: 2639 frames 50.610 seconds 52.14 fps (19.18 ms/f) 8.109 fps variability
+gcc7/llvm6 all O3   : 2639 frames 50.317 seconds 52.45 fps (19.07 ms/f) 8.457 fps variability *Winner*
+Ubuntu 17.04 drivers: Unplayable at those settings
+
+Counter Strike Source Video stress test (32 bit) - Model detail(high), Texture detail(high), Shader detail(high), Water detail(reflect all), shadow detail(high), color correction(enabled), anti aliasing(8x), Filteringmode (ansiostropic 16x), vertical sync(disabled), motion blur(enabled), multicore rendering(enabled), high dynamic range (enabled if availible), use bloom effect (unchecked) 
+gcc7/llvm6 all O3   : 184fps *Winner*
+gcc7/llvm6 driver O3: 184fps
+gcc6/llvm5 all O3   : 180fps
+gcc6/llvm5 driver O3: 183fps
+
+Unigine Heaven (32 bit) - Render(OpenGL), Mode(1680x1050 8xAA windowed, Quality(High), Tessellation(Disabled)
+gcc6/llvm5 driver O3: FPS(76.9), Score(1937), Min FPS(9.3), Max FPS(138.7)
+gcc6/llvm5 all O3   : FPS(76.8), Score(1935), Min FPS(9.3), Max FPS(136.0)
+gcc7/llvm6 driver O3: FPS(78.8), Score(1984), Min FPS(9.3), Max FPS(139.4)
+gcc7/llvm6 all O3   : FPS(79.0), Score(1989), Min FPS(9.3), Max FPS(137.6) *Winner*
+Padoka mesa 17.2.2  : Definately lower, notice unplayable TF2
+Ubuntu 17.04 drivers: probably much lower
+
+Unigine Heaven (64 bit) - Render(OpenGL), Mode(1680x1050 8xAA windowed, Quality(High), Tessellation(Disabled)
+gcc7/llvm6 driver O3: FPS(88.9), Score(2240), Min FPS(32.6), Max FPS(157.6) *Winner*
+gcc7/llvm6 no O3    : FPS(82), Min FPS(30)
+gcc6/llvm5 driver O3: FPS(mid 70's)
+gcc6/llvm5 no O3    : FPS(low 70's)
+Padoka mesa 17.2.2  : FPS(76.8), Score(1935), Min FPS(9.3), Max FPS(136.0)
+Ubuntu 17.04 drivers: probably much lower
+
+*Schedule util performance mode and renice process to -15 priority
