@@ -7,7 +7,7 @@ gcc7/llvm6 all O3  gnu gcc   c11: 2639 frames 49.779 seconds 53.01 fps (18.86 ms
 Ubuntu 17.04 drivers            : Unplayable at those settings
 
 Counter Strike Source Video stress test (32 bit) - Model detail(high), Texture detail(high), Shader detail(high), Water detail(reflect all), shadow detail(high), color correction(enabled), anti aliasing(8x), Filteringmode (ansiostropic 16x), vertical sync(disabled), motion blur(enabled), multicore rendering(enabled), high dynamic range (enabled if availible), use bloom effect (unchecked) 
-gcc7/llvm6 all O3  gnu gcc   c11:    fps *Winner*
+gcc7/llvm6 all O3  gnu gcc   c11: 187.07   fps *Winner*
 gcc7/llvm6 all O3    std all c99: 184fps
 gcc7/llvm6 driver O3 std all c99: 184fps
 gcc6/llvm5 all O3    std all c99: 180fps
@@ -23,7 +23,7 @@ Padoka mesa 17.2.2              : Definately lower, notice unplayable TF2
 Ubuntu 17.04 drivers            : probably much lower
 
 Unigine Heaven (64 bit) - Render(OpenGL), Mode(1680x1050 8xAA windowed, Quality(High), Tessellation(Disabled)
-gcc7/llvm6 driver O3 gnu gcc c11: FPS(88.1), Score(2218), Min FPS(9.4), Max FPS(159.8) *notice max fps*
+gcc7/llvm6 driver O3 gnu gcc c11: FPS(88.1), Score(2218), Min FPS(9.4), Max FPS(159.8) *notice min/max fps*
 gcc7/llvm6 driver O3 std all c99: FPS(88.9), Score(2240), Min FPS(32.6), Max FPS(157.6)  *Winner*
 gcc7/llvm6 no O3     std all c99: FPS(82), Min FPS(30)
 gcc6/llvm5 driver O3 std all c99: FPS(mid 70's)
