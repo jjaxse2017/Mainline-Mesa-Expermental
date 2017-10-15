@@ -15,7 +15,8 @@ Unigine Heaven (32 bit) - Render(OpenGL), Mode(1680x1050 8xAA windowed, Quality(
 gcc6/llvm5 driver O3: FPS(76.9), Score(1937), Min FPS(9.3), Max FPS(138.7)
 gcc6/llvm5 all O3   : FPS(76.8), Score(1935), Min FPS(9.3), Max FPS(136.0)
 gcc7/llvm6 driver O3: FPS(78.8), Score(1984), Min FPS(9.3), Max FPS(139.4)
-gcc7/llvm6 all O3   : FPS(79.0), Score(1989), Min FPS(9.3), Max FPS(137.6) *Winner*
+gcc7/llvm6 all O3   : FPS(79.0), Score(1989), Min FPS(9.3), Max FPS(137.6)
+gcc7/llvm6 all O3 c11: FPS(82.6), Score(2080), Min FPS(9.4), Max FPS(153.2) *Winner*
 Padoka mesa 17.2.2  : Definately lower, notice unplayable TF2
 Ubuntu 17.04 drivers: probably much lower
 
