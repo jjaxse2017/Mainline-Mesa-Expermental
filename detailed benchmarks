@@ -23,8 +23,8 @@ Padoka mesa 17.2.2              : Definately lower, notice unplayable TF2
 Ubuntu 17.04 drivers            : probably much lower
 
 Unigine Heaven (64 bit) - Render(OpenGL), Mode(1680x1050 8xAA windowed, Quality(High), Tessellation(Disabled)
-gcc7/llvm6 driver O3 gnu gcc c11: FPS(), Score(), Min FPS(), Max FPS() *Winner*
-gcc7/llvm6 driver O3 std all c99: FPS(88.9), Score(2240), Min FPS(32.6), Max FPS(157.6) 
+gcc7/llvm6 driver O3 gnu gcc c11: FPS(88.1), Score(2218), Min FPS(9.4), Max FPS(159.8)
+gcc7/llvm6 driver O3 std all c99: FPS(88.9), Score(2240), Min FPS(32.6), Max FPS(157.6)  *Winner*
 gcc7/llvm6 no O3     std all c99: FPS(82), Min FPS(30)
 gcc6/llvm5 driver O3 std all c99: FPS(mid 70's)
 gcc6/llvm5 no O3     std all c99: FPS(low 70's)
