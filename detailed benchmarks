@@ -1,4 +1,5 @@
 TF2 timedemo benchmark1 (32 bit) -- Model detail(high), Texture detail(high), Shader detail(high), Water detail(reflect all), shadow detail(high), color correction(enabled), anti aliasing(8x), Filteringmode (ansiostropic 16x), vertical sync(disabled), motion blur(enabled), multicore rendering(enabled), high dynamic range (enabled if availible), use bloom effect (unchecked) 
+Padoka mesa 17.2.2             :2639 frames 51.224 seconds 51.52 fps (19.41 ms/f) 8.594 fps variability
 gcc6/llvm5 driver O3   std-gcc: 2639 frames 51.238 seconds 51.50 fps (19.42 ms/f) 8.448 fps variability
 gcc6/llvm5 all O3      std-gcc: 2639 frames 51.480 seconds 51.26 fps (19.51 ms/f) 8.352 fps variability
 gcc7/llvm6 driver O3   std-gcc: 2639 frames 50.610 seconds 52.14 fps (19.18 ms/f) 8.109 fps variability
@@ -19,8 +20,8 @@ gcc6/llvm5 all O3      std-gcc: FPS(76.8), Score(1935), Min FPS(9.3), Max FPS(13
 gcc7/llvm6 driver O3   std-gcc: FPS(78.8), Score(1984), Min FPS(9.3), Max FPS(139.4)
 gcc7/llvm6 all O3      std-gcc: FPS(79.0), Score(1989), Min FPS(9.3), Max FPS(137.6)
 gcc7/llvm6 all O3 gnu-gcc-llvm: FPS(82.6), Score(2080), Min FPS(9.4), Max FPS(153.2) *Winner*
-Padoka mesa 17.2.2            : Lower, notice unplayable TF2
-Ubuntu 17.04 drivers          : Lower
+Padoka mesa 17.2.2            : Lower, notice 64 bit
+Ubuntu 17.04 drivers          : Lower than padoka
 
 Unigine Heaven (64 bit) - Render(OpenGL), Mode(1680x1050 8xAA windowed, Quality(High), Tessellation(Disabled)
 gcc7/llvm6 driver O3 gnu-gcc: FPS(88.1), Score(2218), Min FPS(9.4), Max FPS(159.8) -- gnu-llvm-gcc even lower, notice min/max fps
