@@ -29,6 +29,7 @@ gcc7/llvm6 no O3     std-gcc: FPS(82), Min FPS(30)
 gcc6/llvm5 driver O3 std-gcc: FPS(mid 70's)
 gcc6/llvm5 no O3     std-gcc: FPS(low 70's)
 Padoka mesa 17.2.2          : FPS(76.8), Score(1935), Min FPS(9.3), Max FPS(136.0)
-Ubuntu 17.04 drivers        : probably much lower
+Win 10 amd drivers crossfire: FPS(56.4), Score(1422), Min FPS(8.6), Max FPS(99.5)
+Ubuntu 17.04 drivers        : Lower, notice Padoka
 
 *Schedule util performance mode and renice process to -15 priority
