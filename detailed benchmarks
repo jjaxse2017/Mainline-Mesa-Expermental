@@ -13,7 +13,8 @@ gcc7/llvm6 all O3      std-gcc: 184fps
 gcc7/llvm6 driver O3   std-gcc: 184fps
 gcc6/llvm5 all O3      std-gcc: 180fps
 gcc6/llvm5 driver O3   std-gcc: 183fps
-Padoka mesa 17.2.2            : ?fps
+Padoka mesa 17.2.2            : 184fps
+Ubuntu 17.04 drivers          : Not optimimal to play at those settings (probably a cpu limited condition)
 
 Unigine Heaven (32 bit) - Render(OpenGL), Mode(1680x1050 8xAA windowed, Quality(High), Tessellation(Disabled)
 gcc6/llvm5 driver O3   std-gcc: FPS(76.9), Score(1937), Min FPS(9.3), Max FPS(138.7)
