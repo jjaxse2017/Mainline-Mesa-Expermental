@@ -4,7 +4,7 @@
 
 This repository provides the instructions on how to compile mainline mesa with experimental compilers and unsupported optimisations for the best/fastest possible working frame rate. I'd anticipate this would be appealing to an audience of gamers, top benchmark enthusiasts or possibly the mesa 3d dev's looking forward to doing something like adding new features as experimental compilers become supported and stable. See the detailed benchmarks at https://github.com/jjaxse2017/Mainline-Mesa-Expermental/blob/master/detailed%20benchmarks
 
-Goto the release page for the compile instructions/files at https://github.com/jjaxse2017/Mainline-Mesa-Expermental/releases and download https://github.com/jjaxse2017/Mainline-Mesa-Expermental/releases/download/1.0/mesa.mainline.expermental.tar.gz. As an added bonus Mesa 13.0-dev with amd drivers is linked to the release for the lazy people out there. 
+Goto the release page for the compile instructions/files at https://github.com/jjaxse2017/Mainline-Mesa-Expermental/releases and download https://github.com/jjaxse2017/Mainline-Mesa-Expermental/releases/download/1.0/mesa.mainline.expermental.tar.gz. A bonus Mesa 13.0-dev used to benchmark the winning amd drivers are linked to the release, anyone with other cards, I'd be happy about the results.
 
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
