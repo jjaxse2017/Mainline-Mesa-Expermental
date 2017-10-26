@@ -35,4 +35,10 @@ Padoka mesa 17.2.2          : FPS(76.8), Score(1935), Min FPS(9.3), Max FPS(136.
 Win 10 amd drivers crossfire: FPS(56.4), Score(1422), Min FPS(8.6), Max FPS(99.5)
 Ubuntu 17.04 drivers        : Lower, notice Padoka (could be enabling Open GL version from 3 to a partial 4.5)
 
+Star Conflict (64 bit) - Render(OpenGL), Mode(1680x1050 8xAA full screen), Settings(all highest, 8x anti alias , 16x anis aa)
+gcc7/llvm6 driver O3 std-gcc: FPS(Manually set to 60), Low observed(30-40 fps extremely rare, believe to be cpu freq scaling on gpu, when suddenly viewing large world/battle from afar, then it goes backto 60) *Schedule util set to on demand
+
+Deus Ex man kind divided (64 bit) - Render(OpenGL)
+
+
 *Schedule util performance mode and renice process to -15 priority
