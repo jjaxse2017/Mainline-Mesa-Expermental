@@ -41,3 +41,4 @@ gcc7/llvm6 driver O3 std-gcc: FPS(Manually set to 60), Low observed(30-40 fps ex
 
 
 *Schedule util performance mode and renice process to -15 priority
+*No stability  issues found in 3d games games 4+ hrs of game play, 2d seemed to be fine as well with steam running in the back ground
