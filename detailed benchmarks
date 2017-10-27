@@ -6,6 +6,7 @@ gcc7/llvm6 driver O3   std-gcc: 2639 frames 50.610 seconds 52.14 fps (19.18 ms/f
 gcc7/llvm6 all O3      std-gcc: 2639 frames 50.317 seconds 52.45 fps (19.07 ms/f) 8.457 fps variability 
 gcc7/llvm6 all O3 gnu-gcc-llvm: 2639 frames 49.779 seconds 53.01 fps (18.86 ms/f) 7.953 fps variability *Winner*
 Ubuntu 17.04 drivers          : Unplayable at those settings (probably a cpu limited condition or enabling Open GL version from 3 to a partial 4.5)
+Win 10 amd drivers            : playable at 2xaa, motion blur disabled, texture detail min, shows medium and did not use crossfire even though it was availible
 
 Counter Strike Source Video stress test (32 bit) - Model detail(high), Texture detail(very high), Shader detail(high), Water detail(reflect all), shadow detail(high), color correction(enabled), anti aliasing(8x), Filteringmode (ansiostropic 16x), vertical sync(disabled), motion blur(enabled), multicore rendering(enabled), high dynamic range (enabled if availible), use bloom effect (unchecked) 
 gcc7/llvm6 all O3 gnu-gcc-llvm: 187.07   fps *Winner*
