@@ -37,7 +37,7 @@ Win 10 amd drivers crossfire: FPS(56.4), Score(1422), Min FPS(8.6), Max FPS(99.5
 Ubuntu 17.04 drivers        : Lower, notice Padoka (could be enabling Open GL version from 3 to a partial 4.5)
 
 Star Conflict (64 bit) - Render(OpenGL), Mode(1680x1050 8xAA full screen), Settings(all highest, 8x anti alias , 16x anis aa)
-gcc7/llvm6 driver O3 std-gcc: FPS(Manually set to 60), Low observed(30-40 fps extremely rare, believe to be cpu/gpu freq scaling, when viewing large world/battle from afar, then it goes backto 60) *Schedule util set to on demand
+gcc7/llvm6 driver O3 std-gcc: FPS(Manually set to 60), Low observed(30-40 fps extremely rare, believe to be cpu/gpu freq scaling, when viewing large world/battle from afar, then it goes backto 60), upon playing more against 28 pvp players, it appears that lowering to 4x aa / 8x ansi was ideal and FPS drops to low teens on occasion, *Schedule util set to on demand
 
 
 *Schedule util performance mode and renice process to -15 priority
