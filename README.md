@@ -10,9 +10,9 @@ Goto the release page for the compile instructions/files at https://github.com/j
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html><head>
 
-<h1>Unigine Heaven Benchmark 4.0 -- Ubuntu 17.04 Single GPU linux mesa 13.0-dev</h1>
+<h1>Unigine Heaven Benchmark 4.0 -- Ubuntu 17.04 Single GPU linux mesa 14.0-dev</h1>
 <table class="result">
-<tr><td class="right">FPS:</td><td><div class="orange"><strong>88.9</strong></div></td></tr>
+<tr><td class="right">FPS:</td><td><div class="orange"><strong>93.9</strong></div></td></tr>
 <tr><td class="right">Score:</td><td><div class="orange"><strong>2240</strong></div></td></tr>
 <tr><td class="right">Min FPS:</td><td><div class="orange"><strong>32.6</strong></div></td></tr>
 <tr><td class="right">Max FPS:</td><td><div class="orange"><strong>157.6</strong></div></td></tr>
